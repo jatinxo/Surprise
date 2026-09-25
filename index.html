@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Jassi ❤️</title>
+  <meta name="description" content="A special birthday website for Jassi, made with love by Jatin." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="ambient ambient-1"></div>
+  <div class="ambient ambient-2"></div>
+  <div id="hearts"></div>
+
+  <header class="topbar">
+    <div class="brand">J ✦ J</div>
+    <button id="musicBtn" class="music-btn" type="button" aria-label="Play birthday music">
+      <span class="music-icon">♪</span>
+      <span id="musicText">Play Music</span>
+    </button>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section">
+      <p class="eyebrow">A little birthday surprise ✨</p>
+      <h1>Happy Birthday,<br><span>Jassi</span> ❤️</h1>
+      <p class="hero-sub">To a wonderful sister, with love from Jatin.</p>
+      <button class="primary-btn" id="surpriseBtn">Open Your Surprise <span>↓</span></button>
+      <div class="scroll-hint">scroll to continue</div>
+    </section>
+
+    <!-- PHOTO -->
+    <section class="photo-section section reveal">
+      <div class="section-heading">
+        <span>01</span>
+        <h2>One beautiful memory</h2>
+      </div>
+
+      <div class="photo-card">
+        <div class="photo-frame">
+          <img src="assets/jassi-family-photo.jpeg" alt="A beautiful family memory" />
+          <div class="photo-shine"></div>
+        </div>
+        <div class="photo-caption">
+          <span>MEMORIES</span>
+          <p>Some moments deserve to stay forever. ✨</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MESSAGE -->
+    <section class="message-section section reveal" id="message">
+      <div class="section-heading">
+        <span>02</span>
+        <h2>A message from Jatin</h2>
+      </div>
+
+      <article class="letter">
+        <div class="letter-top">
+          <span>For Jassi</span>
+          <span>♡</span>
+        </div>
+        <p>
+          I just wish that you achieve a lot of success in your life and accomplish
+          everything you dream of.
+        </p>
+        <p>
+          May you always have the courage to work hard, keep moving forward, and
+          never give up on your goals. I hope the coming years bring you lots of
+          happiness, success, new opportunities, and beautiful moments.
+        </p>
+        <p>
+          Keep believing in yourself and always stay the way you are. Wishing you
+          a very happy and successful future.
+        </p>
+        <div class="signature">
+          <small>With lots of love,</small>
+          <strong>Jatin</strong>
+        </div>
+      </article>
+    </section>
+
+    <!-- SURPRISE -->
+    <section class="surprise-section section reveal">
+      <div class="surprise-box">
+        <div class="sparkle">✦</div>
+        <p class="eyebrow">ONE LAST THING</p>
+        <h2>Have an amazing birthday! 🎂</h2>
+        <p>May this new chapter of your life be filled with happiness, success, laughter and countless reasons to smile.</p>
+        <button class="primary-btn" id="celebrateBtn">Celebrate! 🎉</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ by <strong>Jatin</strong> for <strong>Jassi</strong></p>
+  </footer>
+
+  <!--
+    MUSIC:
+    Put your legally obtained copy of the song in:
+    music/inaam.mp3
+    You can change the filename below if needed.
+  -->
+  <audio id="birthdayMusic" loop preload="metadata">
+    <source src="music/inaam.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
